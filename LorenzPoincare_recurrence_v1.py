@@ -17,9 +17,9 @@ import numpy as np
 # ============================================================
 
 CSV_FILES = [
-    "/Users/4c/Desktop/GHQ/data/loto7_4696_k79.csv",
-    "/Users/4c/Desktop/GHQ/data/loto7_4696_k79_loto_2970.csv",
-    "/Users/4c/Desktop/GHQ/data/loto7_4696_k79_loto_plus_1726.csv",
+    "/data/loto7_4696_k79.csv",
+    "/data/loto7_4696_k79_loto_2970.csv",
+    "/data/loto7_4696_k79_loto_plus_1726.csv",
 ]
 
 WINDOWS = (1, 2, 3, 5, 8, 13, 21, 34)
@@ -495,13 +495,13 @@ if __name__ == "__main__":
 
 
 """
-Obrada: /Users/4c/Desktop/GHQ/data/loto7_4696_k79.csv
+Obrada: /data/loto7_4696_k79.csv
 Kontrola redosleda: 5/19
 Kontrola redosleda: 10/19
 Kontrola redosleda: 15/19
 Kontrola redosleda: 19/19
 {
-  "CSV": "/Users/4c/Desktop/GHQ/data/loto7_4696_k79.csv",
+  "CSV": "/data/loto7_4696_k79.csv",
   "broj_izvlacenja": 4696,
   "poslednja_kombinacija": [
     5,
@@ -514,11 +514,11 @@ Kontrola redosleda: 19/19
   ],
   "NEXT": [
     3,
-    4,
+    x,
     5,
-    7,
+    y,
     11,
-    19,
+    z,
     25
   ],
   "izabrani_model": "rekonstrukcija_stanja_i_povratci",
@@ -542,13 +542,13 @@ Kontrola redosleda: 19/19
 
 
 
-Obrada: /Users/4c/Desktop/GHQ/data/loto7_4696_k79_loto_2970.csv
+Obrada: /data/loto7_4696_k79_loto_2970.csv
 Kontrola redosleda: 5/19
 Kontrola redosleda: 10/19
 Kontrola redosleda: 15/19
 Kontrola redosleda: 19/19
 {
-  "CSV": "/Users/4c/Desktop/GHQ/data/loto7_4696_k79_loto_2970.csv",
+  "CSV": "/data/loto7_4696_k79_loto_2970.csv",
   "broj_izvlacenja": 2970,
   "poslednja_kombinacija": [
     4,
@@ -561,11 +561,11 @@ Kontrola redosleda: 19/19
   ],
   "NEXT": [
     6,
-    9,
+    x,
     15,
-    19,
+    y,
     24,
-    26,
+    z,
     34
   ],
   "izabrani_model": "rekonstrukcija_stanja_i_povratci",
@@ -589,13 +589,13 @@ Kontrola redosleda: 19/19
 
 
 
-Obrada: /Users/4c/Desktop/GHQ/data/loto7_4696_k79_loto_plus_1726.csv
+Obrada: /data/loto7_4696_k79_loto_plus_1726.csv
 Kontrola redosleda: 5/19
 Kontrola redosleda: 10/19
 Kontrola redosleda: 15/19
 Kontrola redosleda: 19/19
 {
-  "CSV": "/Users/4c/Desktop/GHQ/data/loto7_4696_k79_loto_plus_1726.csv",
+  "CSV": "/data/loto7_4696_k79_loto_plus_1726.csv",
   "broj_izvlacenja": 1726,
   "poslednja_kombinacija": [
     5,
@@ -608,11 +608,11 @@ Kontrola redosleda: 19/19
   ],
   "NEXT": [
     2,
-    3,
+    x,
     12,
-    19,
+    y,
     20,
-    24,
+    z,
     29
   ],
   "izabrani_model": "rekonstrukcija_stanja_i_povratci",
